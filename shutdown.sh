@@ -8,7 +8,10 @@ if [ $PID_NUM -ne 0 ]; then
 	# ps -ef | grep [c]lash-linux-a | awk '{print $2}' | xargs kill -9
 fi
 
+proxy_off
+echo ''
+
 # 清除环境变量
 rm /etc/profile.d/clash*
 
-echo -e "\n服务关闭成功，请执行以下命令关闭系统代理：proxy_off\n"
+echo -e "\n服务关闭成功\n"
