@@ -1,0 +1,13 @@
+.DS_Store
+
+.idea/
+*.iml
+
+conf/config.yaml
+
+temp/**
+!temp/templete_config.yaml
+
+logs
+
+.env
